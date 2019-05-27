@@ -1,9 +1,10 @@
 package java.com.example.demo.bootstrap;
 
-import com.example.demo.annotation.EnableHelloworld;
 import org.springframework.boot.WebApplicationType;
 import org.springframework.boot.builder.SpringApplicationBuilder;
 import org.springframework.context.ConfigurableApplicationContext;
+
+import java.com.example.demo.annotation.EnableHelloworld;
 
 @EnableHelloworld(name = "username",value = "sync")
 public class EnableHelloWorldBootstrap {

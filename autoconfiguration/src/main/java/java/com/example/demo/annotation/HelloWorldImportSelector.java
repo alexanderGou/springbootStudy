@@ -1,6 +1,5 @@
 package java.com.example.demo.annotation;
 
-import com.example.demo.configuration.HelloWorldConfiguration;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.context.annotation.ImportSelector;
@@ -9,6 +8,7 @@ import org.springframework.core.type.AnnotationMetadata;
 import org.springframework.core.type.StandardAnnotationMetadata;
 import org.springframework.util.MultiValueMap;
 
+import java.com.example.demo.configuration.HelloWorldConfiguration;
 import java.lang.reflect.AnnotatedElement;
 
 public class HelloWorldImportSelector implements ImportSelector {

@@ -1,11 +1,11 @@
 package java.com.example.demo.condition;
 
-import com.example.demo.annotation.ConditionalOnSystemProperty;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.context.annotation.Condition;
 import org.springframework.context.annotation.ConditionContext;
 import org.springframework.core.type.AnnotatedTypeMetadata;
 
+import java.com.example.demo.annotation.ConditionalOnSystemProperty;
 import java.util.Map;
 
 @Slf4j

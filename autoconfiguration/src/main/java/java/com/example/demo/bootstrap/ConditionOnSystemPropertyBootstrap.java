@@ -1,11 +1,12 @@
 package java.com.example.demo.bootstrap;
 
-import com.example.demo.annotation.ConditionalOnSystemProperty;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.boot.WebApplicationType;
 import org.springframework.boot.builder.SpringApplicationBuilder;
 import org.springframework.context.ConfigurableApplicationContext;
 import org.springframework.context.annotation.Bean;
+
+import java.com.example.demo.annotation.ConditionalOnSystemProperty;
 
 @Slf4j
 public class ConditionOnSystemPropertyBootstrap {

@@ -1,10 +1,11 @@
 package java.com.example.demo.bootstrap;
 
-import com.example.demo.service.CalculateService;
 import org.springframework.boot.WebApplicationType;
 import org.springframework.boot.builder.SpringApplicationBuilder;
 import org.springframework.context.ConfigurableApplicationContext;
 import org.springframework.context.annotation.ComponentScan;
+
+import java.com.example.demo.service.CalculateService;
 
 @ComponentScan(basePackages = "com.example.demo.service")
 public class CalculateServiceBootstrap {
