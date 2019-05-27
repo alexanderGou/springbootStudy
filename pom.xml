@@ -5,6 +5,7 @@
     <packaging>pom</packaging>
     <modules>
         <module>autoconfiguration</module>
+        <module>springapplication</module>
     </modules>
     <parent>
         <groupId>org.springframework.boot</groupId>
